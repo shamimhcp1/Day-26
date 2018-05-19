@@ -1,56 +1,26 @@
 
 
 [class*="col-"] {
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
 }
 
-.header-height {height: 250px}
-.menu-height {height: 50px}
-.content-height {height: 750px}
-
-.content-height object {
+.img-responsive {
     height: 100%;
     width: 100%;
 }
-
-.big-footer-height {height: 300px}
-.footer-height {height: 50px}
-
-.col-xl {
-    height: 200px;
-    border: 1px solid black;
-}
-.col-lg {
-    height: 200px;
-    border: 1px solid black;
-}
-.col-md {
-    height: 200px;
-    border: 1px solid black;
-}
-.col-sm {
-    height: 200px;
-    border: 1px solid black;
-}
-.col-xs {
-    height: 200px;
-    border: 1px solid black;
+.carousel-control-prev {
+    background-color: red;
+    opacity: 0.2;
+    width: 50px;
+    border-right: 1px solid white;
 }
 
-.colorBox {
-    width: 30%;
-    height: 200px;
+.carousel-control-next {
+    background-color: red;
+    opacity: 0.2;
+    width: 50px;
+    border-left: 1px solid white;
 }
-
-#resultView, #xiView {
-    display: none;
-}
-
-
-
-
-
-
 
 
 @media screen and (min-width: 480px) and (max-width: 575px) {
